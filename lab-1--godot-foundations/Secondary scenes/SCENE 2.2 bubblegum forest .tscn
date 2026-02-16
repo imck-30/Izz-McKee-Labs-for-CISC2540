@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://dynlngwreantb"]
+
+[node name="Bubblegum Forest" type="Node2D" unique_id=1300181881]
+
+[node name="Trunk" type="ColorRect" parent="." unique_id=1704043534]
+offset_left = 113.0
+offset_top = 193.0
+offset_right = 171.0
+offset_bottom = 371.0
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="." unique_id=427450139]
+offset_left = 50.0
+offset_top = 57.0
+offset_right = 238.0
+offset_bottom = 226.0
+color = Color(0.8967519, 0.45411357, 0.65762776, 1)
+
+[node name="Tree 2" type="Node2D" parent="." unique_id=466086034]
+position = Vector2(1325, 457)
+scale = Vector2(0.5555455, 0.50249076)
+
+[node name="Trunk" type="ColorRect" parent="Tree 2" unique_id=1049787735]
+offset_left = -754.2136
+offset_top = 109.45474
+offset_right = -689.4125
+offset_bottom = 380.10648
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="Tree 2" unique_id=1487318919]
+offset_left = -909.0165
+offset_top = -187.0681
+offset_right = -543.60986
+offset_bottom = 187.06825
+color = Color(0.9490196, 0.47843137, 0.5372549, 1)
+
+[node name="Tree 3" type="Node2D" parent="." unique_id=82741972]
+position = Vector2(744, 570)
+scale = Vector2(0.5555455, 0.50249076)
+
+[node name="Trunk" type="ColorRect" parent="Tree 3" unique_id=156267236]
+offset_left = -779.4141
+offset_top = -123.38537
+offset_right = -707.4128
+offset_bottom = 133.33582
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="Tree 3" unique_id=300948517]
+offset_left = -892.81616
+offset_top = -362.19574
+offset_right = -595.8108
+offset_bottom = -55.72235
+color = Color(0.8359809, 0.55802965, 0.5819666, 1)
+
+[node name="Tree 4" type="Node2D" parent="Tree 3" unique_id=1683487961]
+position = Vector2(1185, 188.00002)
+scale = Vector2(0.5555455, 0.50249076)
+
+[node name="Trunk" type="ColorRect" parent="Tree 3/Tree 4" unique_id=1653940022]
+offset_left = -2521.8525
+offset_top = -2009.7996
+offset_right = -2449.851
+offset_bottom = -1727.2073
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="Tree 3/Tree 4" unique_id=1366751056]
+offset_left = -2680.6182
+offset_top = -2461.29
+offset_right = -2295.044
+offset_bottom = -1997.9182
+color = Color(0.93355656, 0.51109713, 0.3727573, 1)
+
+[node name="Tree 5" type="Node2D" parent="." unique_id=887414201]
+position = Vector2(1281.6232, 95.52414)
+
+[node name="Trunk" type="ColorRect" parent="Tree 5" unique_id=1478361678]
+offset_left = -331.62317
+offset_top = 99.47586
+offset_right = -288.62317
+offset_bottom = 257.47586
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="Tree 5" unique_id=1478150970]
+offset_left = -428.62317
+offset_top = -81.52414
+offset_right = -183.80804
+offset_bottom = 120.19824
+color = Color(0.79791194, 0.53865874, 0.79164684, 1)
