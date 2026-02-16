@@ -1,0 +1,111 @@
+[gd_scene format=3 uid="uid://di0g62e3kw0b8"]
+
+[ext_resource type="Texture2D" uid="uid://hlmefa3atjfc" path="res://Assets/battledroid for lab 1 .png" id="1_va7m3"]
+[ext_resource type="Texture2D" uid="uid://bpvqcti1awdod" path="res://Assets/Anakin sprite for lab 1.png" id="2_gvvdy"]
+[ext_resource type="PackedScene" uid="uid://r5k0cqlhptv4" path="res://Secondary scenes/SCENE 2.1 plasma blast .tscn" id="3_7u84p"]
+
+[node name="Level 1 (Anakin and Battledroid)" type="Node2D" unique_id=664354346]
+
+[node name="BattledroidForLab1" type="Sprite2D" parent="." unique_id=1270286901]
+position = Vector2(209.75002, 378.5)
+scale = Vector2(2.9659088, 2.737374)
+texture = ExtResource("1_va7m3")
+
+[node name="AnakinSpriteForLab1" type="Sprite2D" parent="." unique_id=1927147066]
+position = Vector2(706.00006, 403)
+scale = Vector2(0.31080005, 0.3682381)
+texture = ExtResource("2_gvvdy")
+flip_h = true
+
+[node name="Tree" type="Node2D" parent="." unique_id=2129478735]
+position = Vector2(422.00003, 143.00002)
+scale = Vector2(0.5555455, 0.50249076)
+
+[node name="Trunk" type="ColorRect" parent="Tree" unique_id=464964193]
+offset_left = -577.0
+offset_top = 29.0
+offset_right = -483.0
+offset_bottom = 443.0
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="Tree" unique_id=66368474]
+offset_left = -734.0
+offset_top = -234.0
+offset_right = -328.0
+offset_bottom = 147.0
+color = Color(0.8967519, 0.45411357, 0.65762776, 1)
+
+[node name="Tree 2" type="Node2D" parent="." unique_id=980974389]
+position = Vector2(1325, 459)
+scale = Vector2(0.5555455, 0.50249076)
+
+[node name="Trunk" type="ColorRect" parent="Tree 2" unique_id=169149640]
+offset_left = -617.4112
+offset_top = 29.85129
+offset_right = -523.4112
+offset_bottom = 443.8513
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="Tree 2" unique_id=1437326099]
+offset_left = -802.81445
+offset_top = -398.01727
+offset_right = -330.21338
+offset_bottom = 90.44736
+color = Color(0.9490196, 0.47843137, 0.5372549, 1)
+
+[node name="Tree 3" type="Node2D" parent="." unique_id=1127440315]
+position = Vector2(744, 570)
+scale = Vector2(0.5555455, 0.50249076)
+
+[node name="Trunk" type="ColorRect" parent="Tree 3" unique_id=1394801251]
+offset_left = -630.01135
+offset_top = -81.59355
+offset_right = -558.01
+offset_bottom = 175.12764
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="Tree 3" unique_id=1535981407]
+offset_left = -743.4136
+offset_top = -332.34445
+offset_right = -446.40817
+offset_bottom = -25.871063
+color = Color(0.8359809, 0.55802965, 0.5819666, 1)
+
+[node name="Tree 4" type="Node2D" parent="." unique_id=1029812531]
+position = Vector2(1185, 188.00002)
+scale = Vector2(0.5555455, 0.50249076)
+
+[node name="Trunk" type="ColorRect" parent="Tree 4" unique_id=121310852]
+offset_left = -642.6118
+offset_top = -65.67286
+offset_right = -570.6105
+offset_bottom = 216.9194
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="Tree 4" unique_id=1712692617]
+offset_left = -788.41455
+offset_top = -360.20563
+offset_right = -446.40805
+offset_bottom = -23.88095
+color = Color(0.93355656, 0.51109713, 0.3727573, 1)
+
+[node name="Tree 5" type="Node2D" parent="." unique_id=733307383]
+position = Vector2(847.00006, 223.00002)
+scale = Vector2(0.5555455, 0.50249076)
+
+[node name="Trunk" type="ColorRect" parent="Tree 5" unique_id=692946723]
+offset_left = -718.2131
+offset_top = -65.67289
+offset_right = -604.81104
+offset_bottom = 216.91937
+color = Color(0.40226325, 0.19635963, 4.813075e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="Tree 5" unique_id=686382199]
+offset_left = -867.6157
+offset_top = -449.75955
+offset_right = -451.80804
+offset_bottom = -39.801758
+color = Color(0.79791194, 0.53865874, 0.79164684, 1)
+
+[node name="ColorRect – Plasma blast4" parent="." unique_id=2018232378 instance=ExtResource("3_7u84p")]
+position = Vector2(161, 82)
