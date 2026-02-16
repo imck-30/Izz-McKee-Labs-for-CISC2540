@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://r5k0cqlhptv4"]
+
+[node name="Plasma blasts" type="Node2D" unique_id=2140019362]
+
+[node name="ColorRect – Plasma blast" type="ColorRect" parent="." unique_id=970700812]
+offset_left = 147.0
+offset_top = 258.99997
+offset_right = 150.38364
+offset_bottom = 323.9971
+rotation = -1.5759356
+color = Color(1, 0, 0, 1)
+
+[node name="ColorRect – Plasma blast2" type="ColorRect" parent="." unique_id=332178448]
+offset_left = 267.0
+offset_top = 282.99997
+offset_right = 270.38364
+offset_bottom = 347.9971
+rotation = -1.5759356
+color = Color(1, 0, 0, 1)
+
+[node name="ColorRect – Plasma blast3" type="ColorRect" parent="." unique_id=1932257891]
+offset_left = 403.99994
+offset_top = 259.99997
+offset_right = 407.38358
+offset_bottom = 324.9971
+rotation = -1.5759356
+color = Color(1, 0, 0, 1)
